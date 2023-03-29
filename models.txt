@@ -1,0 +1,40 @@
+User
+  userid
+  username
+
+Product:
+  id
+  quantity
+  totalprice
+  description
+  category
+
+Invoice
+  id
+  product
+  total
+  tax
+  datetime
+
+Sales
+  invoiceNo:
+  invoiceDate:
+  customerId
+  discountPer:
+  totalPrice
+  paymentDue:
+  updateddate
+
+Stock
+  stockId
+  stockName
+
+Customer
+  customerId
+  name
+  address
+  phone
+  mobileno
+  email
+  notes
+
